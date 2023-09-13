@@ -15,3 +15,11 @@ git diff filename.txt  -> helps in seeing what modification is done
 git checkout filename.txt -> helps in rollbacking to the previous version that is present in the git repo
 git remote add origin link.git
 git push -u origin main
+
+// for converting master branch to main
+https://stevenmortimer.com/5-steps-to-change-github-default-branch-from-master-to-main/
+
+// for rebase if after converting the main not able to push
+git pull --rebase origin main   https://github.com/orgs/community/discussions/49593
+git push origin main
+
