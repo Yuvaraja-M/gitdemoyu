@@ -1,0 +1,17 @@
+
+
+
+git init in that folder
+git status to see the modifications done
+git add filename.txt for the file to add in local .git folder
+git commit -m "complete chapter1"
+git log to see 
+
+
+Local repo -> staging area -> git repo  -> remote(github)repo
+
+For reverting back the content in local repo 
+git diff filename.txt  -> helps in seeing what modification is done
+git checkout filename.txt -> helps in rollbacking to the previous version that is present in the git repo
+git remote add origin link.git
+git push -u origin main
