@@ -23,3 +23,14 @@ https://stevenmortimer.com/5-steps-to-change-github-default-branch-from-master-t
 git pull --rebase origin main   https://github.com/orgs/community/discussions/49593
 git push origin main
 
+// to remove all the file in the staging area we use command
+git rm --cached -r .
+
+
+//can clone a repo by
+git clone "url"
+
+//branching and merge
+git branch alien
+git branch  --> to see which branch we are currently at
+git checkout alien  --> to switch to the other branch 
